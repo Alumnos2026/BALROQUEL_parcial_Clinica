@@ -1,19 +1,19 @@
-// Archivo: script.js
-alert("Hola mundo con Javascript")
 
-//var nombre = "giovany";
-var apellido = "bal";
+alert("BIENVENIDO A LA CLINICA FAMILIAR GABRIEL, QUIERES SER PARTE DE NUESTRA FAMILIA?");
+
+
+var soporte = "CLINICA GABRIEL";
+var programador = "gio96";
 var presente = true;
-var ausente = false;
-var estarura = 1.75;
-var edad = 27;
+var numero = 56570404;
+var caso = null;
+var info = undefined;
 
-if (true) {
-    var nombre = "giovany";
-}
 
-console.log("Hola " + nombre + " "+ apellido); // Imprime "giovany"
-console.log(typeof(nombre)); // Imprime "string"
-console.log("tines " + edad + " años"); // Imprime "tines 27 años"
 
-console.log("Tu altura es " + estarura + " metros"); // Imprime "Mi altura es 1.75 metros"
+console.log("SOPORTE DE" + soporte + " EL PROGRAMADOR " + programador + "NUMERO DE CONTACTO " + numero );
+
+console.log(typeof(caso));
+console.log(typeof(numero));
+console.log(typeof(info));
+console.log(typeof(presente));
