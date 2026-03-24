@@ -1,91 +1,123 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CLINICA GABRIEL</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
-    />
-  </head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" />
+</head>
 
-  <main>
+<main>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img
-            src="1.jpg"
-            alt="Logo"
-            style="width: 40px"
-            class="rounded-pill"
-          />
-        </a>
-      </div>
-      <div class="container-fluid">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" href="#especialidades">ESPECIALIDADES</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#doctores">DOCTORES</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#horarios">HORARIOS</a>
-          </li>
-        </ul>
-      </div>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="1.jpg" alt="Logo" style="width: 40px" class="rounded-pill" />
+            </a>
+        </div>
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#especialidades">ESPECIALIDADES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#doctores">DOCTORES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.facebook.com" target="_blank">FACEBOOK</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.instagram.com" target="_blank">INSTAGRAM</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="js">JS</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <header>
-      <div class="container-fluid p-5 bg-primary text-white text-center">
-        <h1><i class="bi bi-heart-pulse"></i> CLINICA FAMILIAR "GABRIEL"</h1>
+        <div class="container-fluid p-5 bg-primary text-white text-center">
+            <h1><i class="bi bi-heart-pulse"></i> CLINICA FAMILIAR "GABRIEL"</h1>
 
-        <p>TU SALUD ES NUESTRA PRIORIDAD</p>
-      </div>
+            <p>TU SALUD ES NUESTRA PRIORIDAD</p>
+        </div>
     </header>
     <div id="especialidades" class="container mt-5">
-      <div class="row">
-        <div class="col-sm-4">
-          <h3><i class="bi bi-eyedropper"></i> PEDIATRIA</h3>
-          <p>CONTAMOS CON EL RECURSO HUMANO CALIFICADO</p>
-          <p>TODOS NUESTROS COLABORADORES CUENTAN CON UN MASTER EN PEDIATRIA</p>
+        <div class="row">
+            <div class="col-sm-4">
+                <h3><i class="bi bi-eyedropper"></i> PEDIATRIA</h3>
+                <p>CONTAMOS CON EL RECURSO HUMANO CALIFICADO</p>
+                <p>TODOS NUESTROS COLABORADORES CUENTAN CON UN MASTER EN PEDIATRIA</p>
+            </div>
+            <div class="col-sm-4">
+                <h3><i class="bi bi-person"></i> GINECOLOGIA</h3>
+                <p>SI ERES UNA MUJER CONSERVADORA NO TE PREOCUPES</p>
+                <p>
+                    GINECOLOGIA CUENTA UNICAMENTE CON PERSONAL FEMENINO, %100
+                    CALIFICADAS
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <h3><i class="bi bi-sun"></i> DERMATOLOGIA</h3>
+                <p>NUESTROS ESPECIALISTAS CON AÑOS DE EXPERIENCIA</p>
+                <p>CON UN HISTORIAL CLINICO %100 DE SATISFACCION EN LOS PACIENTES</p>
+            </div>
         </div>
-        <div class="col-sm-4">
-          <h3><i class="bi bi-person"></i> GINECOLOGIA</h3>
-          <p>SI ERES UNA MUJER CONSERVADORA NO TE PREOCUPES</p>
-          <p>
-            GINECOLOGIA CUENTA UNICAMENTE CON PERSONAL FEMENINO, %100
-            CALIFICADAS
-          </p>
-        </div>
-        <div class="col-sm-4">
-          <h3><i class="bi bi-sun"></i> DERMATOLOGIA</h3>
-          <p>NUESTROS ESPECIALISTAS CON AÑOS DE EXPERIENCIA</p>
-          <p>CON UN HISTORIAL CLINICO %100 DE SATISFACCION EN LOS PACIENTES</p>
-        </div>
-      </div>
     </div>
 
-    <section id="doctores">
-      <div class="card" style="width: 18rem">
-        <img src="2.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
-          <h5 class="card-title">PEDIATRA DR. MOJES EDURARDO</h5>
-          <p class="card-text">
-            8 AÑOS DE EXPERIENCIA EN PEDIATRIA, ESPECIALISTA EN NEONATOLOGIA, CON UN HISTORIAL CLINICO %100 DE SATISFACCION EN LOS PACIENTES    
-          </p>
-          <a href="https://www.facebook.com" class="btn btn-primary" target="_blank">red social</a>
+    <section id="doctores" class="container mt-5">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>DOCTOR MOJES EDURARDO</h5>
+                        <p>8 AÑOS DE EXPERIENCIA EXELECIA EN PEDIATRIA.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>GINECOLOGA MARIA JUANA </h5>
+                        <p>10 AÑOS DE EXPERIENCIA EN GINECOLOGIA.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="4.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>DERMATOLOGO JUAN PABLO</h5>
+                        <p>5 AÑOS DE EXPERIENCIA EN DERMATOLOGIA.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
-      </div>
     </section>
+
+    <script src="script.js"></script>
     <footer>
-      <p>Clinica Familiar "GABRIEL"- Todos los derechos reservados 2024</p>
+        <p>Clinica Familiar "GABRIEL"- Todos los derechos reservados 2024</p>
     </footer>
-  </main>
+</main>
+
 </html>
