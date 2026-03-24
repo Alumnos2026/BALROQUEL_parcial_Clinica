@@ -1,56 +1,91 @@
-<!DOCTYPE html> 
-<html lang="en">    
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>estructura semantica</title>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-   <link
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CLINICA GABRIEL</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
     />
-</head>
-<main>
-    <header>
-       <div class="container-fluid p-5 bg-primary text-white text-center">
-  <h1><i class="bi bi-heart-pulse"></i>  CLINICA FAMILIAR "GABRIEL"</h1>
-  
-  <p>TU SALUD ES NUESTRA PRIORIDAD</p> 
-</div>
-    </header>
-    <div class="container mt-5">
-  <div class="row">
-    <div class="col-sm-4">
-      <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-    <div class="col-sm-4">
-      <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
-    </div>
-  </div>
-</div>
-    <aside>
-        <h3>titulo del aside</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
-    </aside>
+  </head>
 
-        <section>
-        <article>
-            <h2>titulo del articulo</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, voluptate.</p>
-        </article>
+  <main>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="1.jpg"
+            alt="Logo"
+            style="width: 40px"
+            class="rounded-pill"
+          />
+        </a>
+      </div>
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#especialidades">ESPECIALIDADES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#doctores">DOCTORES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#horarios">HORARIOS</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <header>
+      <div class="container-fluid p-5 bg-primary text-white text-center">
+        <h1><i class="bi bi-heart-pulse"></i> CLINICA FAMILIAR "GABRIEL"</h1>
+
+        <p>TU SALUD ES NUESTRA PRIORIDAD</p>
+      </div>
+    </header>
+    <div id="especialidades" class="container mt-5">
+      <div class="row">
+        <div class="col-sm-4">
+          <h3><i class="bi bi-eyedropper"></i> PEDIATRIA</h3>
+          <p>CONTAMOS CON EL RECURSO HUMANO CALIFICADO</p>
+          <p>TODOS NUESTROS COLABORADORES CUENTAN CON UN MASTER EN PEDIATRIA</p>
+        </div>
+        <div class="col-sm-4">
+          <h3><i class="bi bi-person"></i> GINECOLOGIA</h3>
+          <p>SI ERES UNA MUJER CONSERVADORA NO TE PREOCUPES</p>
+          <p>
+            GINECOLOGIA CUENTA UNICAMENTE CON PERSONAL FEMENINO, %100
+            CALIFICADAS
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h3><i class="bi bi-sun"></i> DERMATOLOGIA</h3>
+          <p>NUESTROS ESPECIALISTAS CON AÑOS DE EXPERIENCIA</p>
+          <p>CON UN HISTORIAL CLINICO %100 DE SATISFACCION EN LOS PACIENTES</p>
+        </div>
+      </div>
+    </div>
+
+    <section id="doctores">
+      <div class="card" style="width: 18rem">
+        <img src="2.jpg" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">PEDIATRA DR. MOJES EDURARDO</h5>
+          <p class="card-text">
+            8 AÑOS DE EXPERIENCIA EN PEDIATRIA, ESPECIALISTA EN NEONATOLOGIA, CON UN HISTORIAL CLINICO %100 DE SATISFACCION EN LOS PACIENTES    
+          </p>
+          <a href="https://www.facebook.com" class="btn btn-primary" target="_blank">red social</a>
+        </div>
+      </div>
     </section>
     <footer>
-        <p>Derechos reservados 2024</p>
+      <p>Clinica Familiar "GABRIEL"- Todos los derechos reservados 2024</p>
     </footer>
-</main>
+  </main>
 </html>
